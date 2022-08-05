@@ -1,0 +1,54 @@
+.AdviceCard,
+.LoopCard {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(52, 24, 213, 0.799);
+  width: 350px;
+  max-width: 350px;
+  height: 200px;
+  max-height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(70, 43, 226, 0.712);
+}
+.LoopCard {
+  border: 1px solid rgb(213, 107, 133);
+  background-color: rgba(213, 107, 133, 0.645);
+}
+.LoopCard__Id {
+  color: rgb(70, 43, 226);
+  font-size: 15px;
+}
+.LoopCard__Text {
+  color: rgb(70, 43, 226);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.AdviceCard__Id {
+  font-size: 15px;
+  color: rgb(213, 107, 133);
+}
+.AdviceCard__Text {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(213, 107, 133);
+}
+
+.AdviceCard button {
+  position: fixed;
+  top: 47%;
+  border: 1px solid rgba(52, 24, 213, 0.799);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  left: 49%;
+  width: 40px;
+  background-color: rgba(70, 43, 226, 0.83);
+  color: rgb(213, 107, 133);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.AdviceCard button:hover {
+  color: rgb(247 228 239);
+}
